@@ -1,7 +1,7 @@
 import json
 from kafka import KafkaConsumer
 
-from producer import route_message
+from producer import route_email
 from mongodb_connection import get_mongo_connection
 
 
