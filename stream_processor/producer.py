@@ -14,7 +14,7 @@ def detect(sentences):
         elif 'hostage' in sentence:
             return 'hosta'
 
-def route_message(email):
+def route_email(email):
     diagnosis = detect(email.get('sentences'))
     if diagnosis == 'explos':
         print('is_explos')
